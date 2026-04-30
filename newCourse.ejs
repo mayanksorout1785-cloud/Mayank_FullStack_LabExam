@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Course</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<h2>Add Course</h2>
+
+<form action="/courses" method="POST">
+    <input type="text" name="courseName" placeholder="Course Name" required>
+    <input type="number" name="price" placeholder="Price" required>
+    <input type="text" name="image" placeholder="Image URL" required>
+    <input type="text" name="duration" placeholder="Duration" required>
+    <input type="date" name="courseStartDate" required>
+
+    <button type="submit">Create</button>
+</form>
+
+</body>
+</html>
